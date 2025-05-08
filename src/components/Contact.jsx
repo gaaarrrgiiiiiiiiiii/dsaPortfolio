@@ -3,6 +3,8 @@ import hackerrank from '../assets/hackerrank.png';
 import elab from '../assets/elab.png';
 import udemyc from '../assets/udemy.png';
 import udemycpp from '../assets/udemycpp.png';
+import js from '../assets/js.png';
+import daa from '../assets/daa.png';
 
 const Contact = () => {
   return (
@@ -29,7 +31,15 @@ const Contact = () => {
             
           </span>
         </div>
-
+        
+        <div className="bg-gray-900 p-[20px] rounded-xl flex flex-col items-center jsutify-center">
+        
+        <h2 className="text-[17px] font-bold">JavaScript Certificate</h2>
+        <img src={js} alt=""/>
+        <span className="py-[1px] text-[16px] text-center">
+          
+        </span>
+      </div>
 
         <div className="bg-gray-900 p-[20px] rounded-xl flex flex-col items-center jsutify-center">
         
@@ -51,12 +61,23 @@ const Contact = () => {
 
       <div className="bg-gray-900 p-[20px] rounded-xl flex flex-col items-center jsutify-center">
         
-        <h2 className="text-[17px] font-bold">Elab</h2>
+        <h2 className="text-[17px] font-bold">Elab-DSA</h2>
         <img src={elab} alt=""/>
         <span className="py-[1px] text-[16px] text-center">
           
         </span>
       </div>
+
+      <div className="bg-gray-900 p-[20px] rounded-xl flex flex-col items-center jsutify-center">
+        
+        <h2 className="text-[17px] font-bold">Elab-DAA</h2>
+        <img src={daa} alt=""/>
+        <span className="py-[1px] text-[16px] text-center">
+          
+        </span>
+      </div>
+
+
 
 
          

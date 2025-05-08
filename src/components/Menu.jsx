@@ -3,6 +3,7 @@ import { IoHomeOutline, IoPersonOutline } from "react-icons/io5";
 import { GoGraph } from "react-icons/go";
 import { HiOutlineLightBulb } from "react-icons/hi";
 import { AiFillSafetyCertificate } from "react-icons/ai";
+import { FiFolder } from "react-icons/fi";
 
 const Menu = () => {
   return (
@@ -47,6 +48,18 @@ const Menu = () => {
         >
         <HiOutlineLightBulb className="text-[26px] m-[10px] text-center"/>
         </Link>
+
+        <Link
+          activeClass="bg-[#1484da] rounded-full"
+          to="projects"
+          smooth={true}
+          spy={true}
+          offset={50}
+          duration={50}
+        >
+          <FiFolder className="text-[26px] m-[10px] text-center" />
+        </Link>
+
 
         <Link activeClass="bg-[#1484da] rounded-full"
         to="Contact"

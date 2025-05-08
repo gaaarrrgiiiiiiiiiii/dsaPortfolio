@@ -54,6 +54,22 @@ const About = () => {
             <GrUserExpert className='text-[20px] text-center text-[#1484da] m-[6px]' />
             <h2 className='text-[17px] font-bold'>Heap</h2>
           </div>
+          <div className='bg-gray-900 p-[10px] rounded-xl flex flex-col items-center justify-center w-[120px]'>
+            <GrUserExpert className='text-[20px] text-center text-[#1484da] m-[6px]' />
+            <h2 className='text-[17px] font-bold'>Searching</h2>
+          </div>
+          <div className='bg-gray-900 p-[10px] rounded-xl flex flex-col items-center justify-center w-[120px]'>
+            <GrUserExpert className='text-[20px] text-center text-[#1484da] m-[6px]' />
+            <h2 className='text-[17px] font-bold'>Sorting</h2>
+          </div>
+          <div className='bg-gray-900 p-[10px] rounded-xl flex flex-col items-center justify-center w-[120px]'>
+            <GrUserExpert className='text-[20px] text-center text-[#1484da] m-[6px]' />
+            <h2 className='text-[17px] font-bold'>DP</h2>
+          </div>
+          <div className='bg-gray-900 p-[10px] rounded-xl flex flex-col items-center justify-center w-[120px]'>
+            <GrUserExpert className='text-[20px] text-center text-[#1484da] m-[6px]' />
+            <h2 className='text-[17px] font-bold'>Greedy</h2>
+          </div>
         </div>
         
       </div>

@@ -8,6 +8,7 @@ import Skills from "./components/Skills"
 import Contact from "./components/Contact"
 import About from "./components/About"
 import Menu from "./components/Menu"
+import Projects from "./components/Projects"
 import ProgressGraph from "./components/ProgressGraph"; // Import ProgressGraph
 
 
@@ -22,6 +23,7 @@ function App() {
             <About />
             <Experience />
             <Skills />
+            <Projects />
             <Contact />
             <Footer />
             <Menu />

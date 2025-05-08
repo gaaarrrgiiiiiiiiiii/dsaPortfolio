@@ -4,6 +4,7 @@ import {FaGitHub} from "react-icons/fa";
 import {FaInstagram} from "react-icons/fa";
 
 
+
 const Navbar = () =>{
   return (
     <nav className="bg-red-400 mb-20 flex items-center justify-between py-6">

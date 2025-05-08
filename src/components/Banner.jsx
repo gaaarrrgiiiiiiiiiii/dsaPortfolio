@@ -15,7 +15,7 @@ const Banner = () => {
       <h2 id='' className="text-xl">Hello, I am</h2>
       <h2 className="text-3xl my-2">Gargi Thapa</h2>
 
-      <p>I’m a frontend developer and passionate computer science enthusiast.
+      <p>I’m a Software Developer and a Computer Science enthusiast.
       </p>
 
       <div id="intro-slider" className="flex gap-2 justify-center">

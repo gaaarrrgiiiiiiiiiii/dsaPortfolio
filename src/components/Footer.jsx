@@ -7,8 +7,8 @@ const Footer = () => {
             <span className="text-2xl font-semibold whitespace-normal">Portfolio</span></a>
         </div>
         <div className="flex gap-5 my-2 justify-center">
-          <a className="hover:underline" href="">GitHub</a>
-          <a className="hover:underline" href="">LinkedIn</a>
+          <a className="hover:underline" href="https://github.com/gaaarrrgiiiiiiiiiii">GitHub</a>
+          <a className="hover:underline" href="https://www.linkedin.com/in/gargi-thapa-089767294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">LinkedIn</a>
         </div>
       </div>
       <hr />

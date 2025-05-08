@@ -38,6 +38,8 @@ const Experience = () => {
           </div>
         </div>
 
+        
+
         <div className="relative col-span-1 w-full h-full flex justify-center items-center">
           <div className="h-full w-[1px] bg-[#1484da]"></div>
           <div className="absolute w-3 h-3 rounded bg-[#1484da] z-10 text-white text-center"></div>
@@ -46,6 +48,47 @@ const Experience = () => {
         <div className="col-span-4 w-full h-full"></div>
         <div className="col-span-4 w-full h-full">
         </div>
+
+        <div className="col-span-4 w-full h-full ">
+        <div id="intro-Slider" className="w-full h-full p-2 md:pl-24">
+          <time className="mb-1 text-sm font-semibold leading-none text-gray-400">Feburary 2025</time>
+          <h3 className="text-lg font-semibold text-gray-200 my-2">Searching and Sorting</h3>
+          <p className="mb-4 text-base font-normal text-gray-500">
+            Advanced Searching Techniques, Optimized Sorting Algorithms, Hybrid Approaches
+          </p>
+        </div>
+      </div>
+
+      <div className="col-span-4 w-full h-full ">
+      <div id="intro-Slider" className="w-full h-full p-2 md:pl-4">
+        <time className="mb-1 text-sm font-semibold leading-none text-gray-400">March 2025</time>
+        <h3 className="text-lg font-semibold text-gray-200 my-2">Greedy and Dynamic Programming</h3>
+        <p className="mb-4 text-base font-normal text-gray-500">
+          Greedy Algorithms, Dynamic Programming Techniques, Problem Solving with Optimization
+        </p>
+      </div>
+    </div>
+      
+
+        <div className="relative col-span-1 w-full h-full flex justify-center items-center">
+          <div className="h-full w-[1px] bg-[#1484da]"></div>
+          <div className="absolute w-3 h-3 rounded bg-[#1484da] z-10 text-white text-center"></div>
+        </div>
+
+        <div className="col-span-4 w-full h-full"></div>
+        <div className="col-span-4 w-full h-full">
+        </div>
+
+        <div className="col-span-4 w-full h-full ">
+          <div id="intro-Slider" className="w-full h-full p-2 md:pl-24">
+            <time className="mb-1 text-sm font-semibold leading-none text-gray-400">April 2025</time>
+            <h3 className="text-lg font-semibold text-gray-200 my-2">NP-Hard, NP-Complete, P, and NP</h3>
+            <p className="mb-4 text-base font-normal text-gray-500">
+              Understanding Complexity Classes, NP-Hard and NP-Complete Problems, Polynomial Time, and Non-Deterministic Polynomial Time.
+            </p>
+          </div>
+        </div>
+
 
       </div>
 
